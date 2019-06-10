@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/server.ts"
   },
   "repository": {
     "type": "git",
     "url": "git@personal.github.com:prameshbhattarai/graphQL-expressJS-mongoDB.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.6.1",
+    "apollo-server-express": "^2.6.1",
+    "graphql": "^14.3.1",
+    "mongoose": "^5.5.12"
+  }
 }
